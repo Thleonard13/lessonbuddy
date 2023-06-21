@@ -1,0 +1,40 @@
+
+GET http://localhost:3000/api/lessons
+
+###
+
+GET http://localhost:3000/api/lessons/646521ea9fed3a749904c957
+
+###
+
+POST http://localhost:3000/api/lessons
+Content-Type: application/json
+
+{
+    "title" : "Smoke on Water 2",
+    "description" : "We worked on the SHREDDING! dfasdfad",
+    "studentId" : "646e50f7ab7a2e4c787cf91e"
+}
+
+###
+
+PATCH http://localhost:3000/api/lessons/646e63d586aebba28611bef9
+Content-Type: application/json
+
+{
+    "studentId" : "646cedf15138f1f5cdec9524"
+}
+
+###
+
+DELETE http://localhost:3000/api/lessons/646656b40b3fdc20450453f2
+
+###
+
+//Student Routes
+
+GET http://localhost:3000/api/students
+
+###
+
+GET http://localhost:3000/api/students/646cedf15138f1f5cdec9524
